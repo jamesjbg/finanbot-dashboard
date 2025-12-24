@@ -1,2 +1,3 @@
+# FORMA CORRETA: O código chama pelo NOME da chave, não pelo valor
 SUPABASE_URL = st.secrets["https://knsdfkjnjqdymhuqyeee.supabase.co"]
-SUPABASE_KEY = st.secrets["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imtuc2Rma2puanFkeW1odXF5ZWVlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjUzOTA3MTMsImV4cCI6MjA4MDk2NjcxM30.z-RCgVdRDUrgn0Jg_gPwg0gq3MErCk1_uF50OZl1x2c"]
+SUPABASE_KEY = os.environ.get("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imtuc2Rma2puanFkeW1odXF5ZWVlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjUzOTA3MTMsImV4cCI6MjA4MDk2NjcxM30.z-RCgVdRDUrgn0Jg_gPwg0gq3MErCk1_uF50OZl1x2c") # Ou st.secrets["SUPABASE_KEY"]
